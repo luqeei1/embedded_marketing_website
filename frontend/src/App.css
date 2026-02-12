@@ -1,0 +1,8 @@
+:root { --container: 1100px }
+
+.container-max { max-width: var(--container); }
+
+.glass-card { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px); }
+
+.product-mock { border-radius: 1rem }
+
