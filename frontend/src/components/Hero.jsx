@@ -19,7 +19,7 @@ export default function Hero() {
       <section className="hero-content container-max">
         <div className="hero-left">
           <h1 className="hero-title">Know your plant. Keep it thriving.</h1>
-          <p className="hero-sub">PlantPulse tracks moisture, light, temperature and humidity with an easy to use app, providing actionable care tips so your plant thrives.</p>
+          <p className="hero-sub">PlantPulse tracks moisture, light, temperature and humidity with an easy to use app, providing actionable care tips so your plant thrives. Built with the Eden Project in mind.</p>
 
           <div id="features" className="features">
             <div className="feature-card">
@@ -41,9 +41,19 @@ export default function Hero() {
           <div className="product-card">
             <div className="product-inner">
               <div className="product-info">
-                <div className="product-powered">Powered by Raspberry Pi Zero</div>
-
-                
+                <div className="product-powered">
+                  <div className="video-wrapper" style={{ maxWidth: 320 }}>
+                    <iframe
+                      width="320"
+                      height="180"
+                      src="https://www.youtube.com/embed/EbFIspjcrqo"
+                      title="Eden Project overview"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
